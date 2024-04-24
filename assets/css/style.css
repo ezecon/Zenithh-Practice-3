@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width:80%;
+  margin: 0 auto;
+
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header-nav ul{
+  list-style: none;
+}
+.header-nav ul li{
+  display: inline;
+  margin: 0 20px;
+
+}
+a{
+  text-decoration: none;
+}
+.header-nav ul li a{
+  color: #697586;
+  text-decoration: none;
+}
+.header-nav ul li a:hover{
+  color: #3f4854;
+}
+.primary-button{
+  font-family: "Poppins", sans-serif;
+  padding: 12px 21px;
+  background-color: #202939;
+  color: #fff;
+  border-radius: 32px;
+  font-weight: 500;
+  
+}
+.primary-button:hover {
+  background-color: #334058;
+}
+.primary-paragraph{
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  color: #697586;
+  font-weight: 400;
+}
+.primary-heading {
+  font-family: "Manrope", sans-serif;
+  font-size: 40px;
+  line-height: 48px;
+  color: #202939;
+}
+.bordered-button
+{
+  font-family: "Poppins", sans-serif;
+  padding: 12px 21px;
+  background-color: #fff;
+  color: #364152;
+  border-radius: 32px;
+  border: 1px solid  #364152;
+  font-weight: 500;
+}
+.bordered-button:hover{
+
+  background-color: #f6f6f6;
+}
+.linked-button{
+  font-family: "Poppins", sans-serif;
+  color: #202939;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.secondary-button {
+  font-family: "Poppins", sans-serif;
+  padding: 12px 21px;
+  background-color: #fff;
+  color: #364152;
+  border-radius: 32px;
+  font-weight: 500;
+}
+.secondary-button:hover {
+  background-color: #f6f6f6;
+}
+.hero-section{
+  background: url(../images/section-1.png);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -110px;
+
+}
+.hero-section-tittle {
+  font-family: "Manrope", sans-serif;
+  font-size: 56px;
+  line-height: 70px;
+  font-weight: 800;
+  text-align: center;
+  margin: 0;
+}
+
+.hero-section-desc
+{
+  text-align: center;
+  margin-top: 25px;
+}
+.hero-section-button {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+
+
+
+
+/*----------------*/
+.info-blob-section{
+  padding: 100px 0;
+  text-align: center;
+}
+
+.info-blob-desc{
+  margin-top: 30px;
+}
+.info-blob-logo{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.info-blob-button{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center
+}
+
+/*-----------------------------------------------*/
+
+
+.app-info{
+  padding: 100px 0;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 300px;
+}
+.app-info-left{
+  display: flex;
+  align-items: center;
+}
+.app-info-feature-section{
+  display: flex;
+
+  flex-direction: column;
+  gap: 20px;
+}
+.app-info-button{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.app-info-feature{
+  display: flex;
+  gap: 15px;
+  margin: 10px 0;
+}
+.app-info-feature ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: "Poppins", sans-serif;
+}
+.app-info-feature ul li{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+
+}
+.app-info-right{
+  text-align: end;
+}
+.app-info-right img{
+  width: 75%;
+
+}
+
+/*--------------------------------------------------------------*/
